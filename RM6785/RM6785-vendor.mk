@@ -861,7 +861,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785/proprietary/vendor/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img \
     vendor/realme/RM6785/proprietary/vendor/firmware/wifi_19661.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_19661.cfg \
     vendor/realme/RM6785/proprietary/vendor/firmware/wifi_20682.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_20682.cfg \
-    vendor/realme/RM6785/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
+    vendor/realme/RM6785/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
+    vendor/realme/RM6785/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
+    vendor/realme/RM6785/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so
 
 PRODUCT_PACKAGES += \
     libem_support_jni \
@@ -1443,7 +1445,6 @@ PRODUCT_PACKAGES += \
     liblpcnr \
     libmedia_helper-v30 \
     libmfllcore \
-    libmpbase \
     libmsbc_mtk \
     libmsnr \
     libmtcloader \
